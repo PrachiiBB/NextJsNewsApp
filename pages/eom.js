@@ -8,10 +8,10 @@ const EOM = ({employee}) => {
             <div className={styles.main}>
                 <h1>Employee of the month</h1>
                 <div className={styles.employeeOfTheMonth}>
-                    <h3>{employee.name}</h3>
+                    <h3>Prachi Balla</h3>
                     <h6>{employee.position}</h6>
-                    <img src={employee.image} />
-                    <p>{employee.description}</p>
+                    <img src="https://cdn-icons-png.flaticon.com/512/3135/3135823.png" />
+                    <p>Dev enthusiast</p>
                 </div>
             </div>
         </div>
